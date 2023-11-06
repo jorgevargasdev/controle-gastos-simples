@@ -1,0 +1,74 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --roxo200: #9200d4;
+  --roxo800: #4b0082;
+  --roxo900: #55186f;
+} 
+
+* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.tela{
+  width: 370px;
+  height: 770px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--roxo800);
+  color: var(--white);
+}
+
+.icon{
+  margin-top: 80px;
+}
+
+.menu{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.menu button {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  stroke-opacity: end;
+}
+
+/* 
+.tela .titulo {
+  display: flex;
+  color: var(--white);
+  width: 380px;
+  height: 50px;
+  background-color: var(--black);
+  justify-content: center;
+
+}
+.tela .titulo h1 {
+  font-size: 20px;
+}
+
+.div-salario{
+  display: flex;
+  flex-direction: row;
+}
+
+.mostrar-salario{
+  /* display: none;
+  cursor: pointer;
+  margin-left: 10px;
+} */
